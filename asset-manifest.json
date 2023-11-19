@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Comic-Generator/static/css/main.d91da9c1.css",
+    "main.js": "/Comic-Generator/static/js/main.6ca37d44.js",
+    "index.html": "/Comic-Generator/index.html",
+    "main.d91da9c1.css.map": "/Comic-Generator/static/css/main.d91da9c1.css.map",
+    "main.6ca37d44.js.map": "/Comic-Generator/static/js/main.6ca37d44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d91da9c1.css",
+    "static/js/main.6ca37d44.js"
+  ]
+}

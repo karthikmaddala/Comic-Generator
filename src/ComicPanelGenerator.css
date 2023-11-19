@@ -1,0 +1,111 @@
+.comic-panel-generator {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  padding: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: Arial, sans-serif; /* Your preferred font */
+  color: #333; /* Default text color */
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+  font-weight: 700; /* Optional: Makes the text bold */
+  /* Other styling as needed */
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates a 2-column grid */
+  grid-gap: 20px; /* Spacing between grid items */
+  padding: 20px 0; /* Padding above and below the grid */
+}
+
+
+
+.input-wrapper {
+  margin: 5px 0; /* Reduced spacing around each text box for a compact look */
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 12px;
+  margin: auto;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+input[type="text"]:hover {
+  border-color: #23d5ab; /* Change border color on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+button {
+  background-color: #ff4081; /* Vibrant pink color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Centers the button */
+  font-size: 16px;
+}
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.comic-panels-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+
+.comic-panels-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 15px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.comic-panels-container img:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
